@@ -4,7 +4,7 @@ This guide walks you through creating your first agent in Microsoft Foundry from
 
 ## Prerequisites
 
-✅ Azure subscription with access to Azure AI Foundry  
+✅ Azure subscription with access to Microsoft Foundry  
 
 ## Step 1: Access Azure AI Foundry
 
@@ -117,7 +117,11 @@ If the user asks any question other than summary, this agent should be invoked.
 2. In the chat box, type prompts. Type "summarize the report".
 3. Router agent should call "SFI-summarizer-agent" to answer this query. You can verify this by clciking on "View Run Info".
 ![alt text](image-5.png)
-4. Try a few prompts see if it works correctly. You can also try asking some questions to see in what cases it can't route properly.
+4. Try a few prompts such as "What is SFI?" or "Summarize design princliples" or "What's the point?" to see if it works correctly. You can also try asking some questions to see in what cases it can't route properly.
 5. You can also change instructions in any of the agents to change the behaviour.
 
 **🎉 Congratulations!** You've successfully created your agent in Microsoft Foundry. 
+
+## Next steps
+- Build Foundry agents in code. Use this [quick start guide](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/quickstart?view=foundry-classic&pivots=programming-language-python-azure) to get started and refer the code samples on this [repository](https://github.com/microsoft/agent-framework/blob/main/python/samples/getting_started/agents/azure_ai_agent/azure_ai_basic.py).
+- Check out [Microsoft Agent Framework](https://learn.microsoft.com/en-us/agent-framework/overview/agent-framework-overview) to build multi-agent system for complex use-cases.
